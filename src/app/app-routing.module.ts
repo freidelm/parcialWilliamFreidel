@@ -9,7 +9,7 @@ export const routes: Routes=[
   children: [
       {
           path: '',
-          loadChildren:'./grupoa/grupoa.module#GrupoadModule'
+          loadChildren:'./grupoa/grupoa.module#GrupoaModule'
       }
   ]
 },
@@ -19,7 +19,7 @@ export const routes: Routes=[
   children: [
       {
           path: '',
-          loadChildren:'./grupob/grupob.module#GrupobdModule'
+          loadChildren:'./grupob/grupob.module#GrupobModule'
       }
   ]
 }

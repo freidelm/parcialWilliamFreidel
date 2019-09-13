@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GrupoaComponent } from './grupoa/grupoa.component';
 import { GrupobComponent } from './grupob/grupob.component';
+import { GrupoaRoutingModule } from './grupoa/grupoa-routing.module';
+import { GrupobRoutingModule } from './grupob/grupob-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,7 @@ import { GrupobComponent } from './grupob/grupob.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
